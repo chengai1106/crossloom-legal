@@ -11,31 +11,34 @@
 <header>
   <p class="brand">Crossloom</p>
   <h1>Privacy Policy</h1>
-  <p class="meta">Last updated 23 November 2026</p>
+  <p class="meta">Last updated 24 November 2026</p>
 </header>
 
 <div class="card">
-  <p style="margin:0"><b>Short version:</b> Crossloom does not collect, transmit, sell, or share any personal data. There is no user account, no cloud upload, no analytics, no advertising, and no third-party SDK of any kind.</p>
+  <p style="margin:0"><b>Short version:</b> Crossloom operates zero developer servers, zero analytics, zero advertising, and zero third-party SDKs. All pattern parsing and photo conversion run locally on your iPhone or iPad.</p>
 </div>
 
-<h2>1. 100% On-Device Processing &amp; Storage</h2>
-<p>All PDF charts, OXS XML patterns, selected photographs, stitch progress records, thread stash checklists, and generated printable PDFs are processed and stored locally inside Crossloom's private sandbox container on your iPhone or iPad. Crossloom never uploads your patterns or photos to any external server. Deleting the app removes this local data from your device.</p>
+<h2>1. On-Device Processing, Local Storage &amp; System Backups</h2>
+<p>All PDF charts, OXS XML patterns, selected photographs, stitch progress records, and thread stash checklists are processed locally on your device. Saved custom projects and stitch progress are stored inside Crossloom's app container (<code>Application Support</code>), which may be included in your own encrypted iTunes/Finder or iCloud Device Backups according to your iOS / iPadOS system settings. Temporary import and PDF export working files are stored in temporary app storage and cleaned automatically. Deleting Crossloom removes its local container from your device.</p>
 
-<h2>2. Photos &amp; Files Selection</h2>
-<p>When you convert a photograph in <b>Photo to Pattern</b>, Crossloom uses Apple's system <code>PhotosPicker</code>. Only the specific image you choose is delivered to Crossloom for on-device color matching; Crossloom cannot browse or access the rest of your photo library.</p>
-<p>When you open a <code>.pdf</code> or <code>.oxs</code> chart via the system Files picker or <i>Open in Crossloom</i>, Crossloom reads only the file you selected and stores a local working copy inside its on-device container. Generated printable pattern sheets leave your device only when you explicitly choose a destination in the iOS / iPadOS Share Sheet.</p>
+<h2>2. Photos, Files &amp; User-Initiated Sharing</h2>
+<p>When you convert a photograph in <b>Photo to Pattern</b>, Crossloom uses Apple's out-of-process <code>PhotosPicker</code>. Only the specific image you choose is delivered to Crossloom for in-memory downsampling and color matching; Crossloom cannot browse the rest of your photo library, and your original photograph is not persisted to disk unless you save the resulting stitch grid.</p>
+<p>When you open a <code>.pdf</code> or <code>.oxs</code> chart via the system Files picker or <i>Open in Crossloom</i>, Crossloom reads only the file you selected using coordinated security-scoped access. Generated printable A4 / US Letter PDFs leave the app only when you explicitly pick a destination in the system Share Sheet.</p>
 
 <h2>3. Tracking &amp; Apple Privacy Manifest</h2>
-<p>Crossloom does not track you across apps or websites. The app's bundled Apple Privacy Manifest (<code>PrivacyInfo.xcprivacy</code>) declares <code>NSPrivacyTracking = false</code>, an empty list of collected data types (<code>NSPrivacyCollectedDataTypes = []</code>), and only standard on-device preferences storage (<code>NSPrivacyAccessedAPICategoryUserDefaults</code> under Apple reason <code>CA92.1</code>).</p>
+<p>Crossloom does not track you across apps or websites. The bundled Apple Privacy Manifest (<code>PrivacyInfo.xcprivacy</code>) declares <code>NSPrivacyTracking = false</code>, <code>NSPrivacyCollectedDataTypes = []</code>, and <code>NSPrivacyAccessedAPITypes = []</code>.</p>
 
 <h2>4. In-App Purchases</h2>
-<p>The optional one-time <b>Crossloom Lifetime Studio</b> unlock (<code>com.cheng.crossloom.lifetime</code>) and purchase restoration are processed directly by Apple via StoreKit 2. Crossloom never receives or stores your billing or payment card information. Apple's privacy policy governs App Store transactions.</p>
+<p>The optional one-time <b>Crossloom Lifetime Studio</b> unlock (<code>com.cheng.crossloom.lifetime</code>) and purchase restoration are processed directly by Apple via StoreKit 2. Crossloom never receives or stores your payment card details. Apple's privacy policy governs App Store transactions.</p>
 
-<h2>5. Children's Privacy</h2>
-<p>Crossloom is rated 4+, collects zero personal information from anyone including children, and contains no social feeds, external web views, chat, or advertising.</p>
+<h2>5. Optional Customer Support Emails</h2>
+<p>If you choose to email customer support at <a href="mailto:xiangmucheng001@gmail.com">xiangmucheng001@gmail.com</a> (or if Apple App Review contacts our dedicated review address), we receive your email address and any diagnostic details you voluntarily include solely to reply to your request. Support emails are never sold, used for marketing, or shared with third parties, and you may request deletion of prior support correspondence at any time.</p>
 
-<h2>6. Contact</h2>
-<p>If you have any questions about this Privacy Policy, email <a href="mailto:xiangmucheng001@gmail.com">xiangmucheng001@gmail.com</a>.</p>
+<h2>6. Children's Privacy</h2>
+<p>Crossloom is rated 4+, collects no personal data inside the app from anyone including children, and contains no social feeds, chat, or advertising.</p>
+
+<h2>7. Contact</h2>
+<p>Questions about this Privacy Policy: <a href="mailto:xiangmucheng001@gmail.com">xiangmucheng001@gmail.com</a></p>
 
 <nav>
   <a href="index.html">Crossloom</a>
